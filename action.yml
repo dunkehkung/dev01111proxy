@@ -1,0 +1,32 @@
+#################################
+# dev01111 classic proxy system #
+# Copyright (C) dev01111 2022   #
+#################################
+# This code contains actions    #
+# outside of dev01111s repos.   #
+# This is     completely the    #
+# official action.              #
+#################################
+
+
+name: "dev01111 proxy system"
+on: 
+  push:
+    paths:
+      - '**.dwnld'
+      
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+        
+      - name: Download
+        run: |
+          wget "(url)"
+      - name: Upload File
+        uses: actions/upload-artifact@v3
+        with:
+          name: "File"
+          path: "keyboard-0.13.5-py3-none-any.whl"
