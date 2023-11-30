@@ -24,9 +24,9 @@ jobs:
         
       - name: Download
         run: |
-          wget "(url)"
+          wget "https://lumpytouch.itch.io/super-impostor-bros"
       - name: Upload File
         uses: actions/upload-artifact@v3
         with:
           name: "File"
-          path: "(filename)"
+          path: "super-impostor-bros"
