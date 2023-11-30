@@ -24,7 +24,7 @@ jobs:
         
       - name: Download
         run: |
-          wget -O "file" "https://hh3.gbdev.io/api/search?title=impostor"
+          wget -O "file" "https://hh3.gbdev.io/api/search?developer=Lumpy"
       - name: List files for debug
         run: |
           ls
