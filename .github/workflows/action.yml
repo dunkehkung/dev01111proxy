@@ -24,7 +24,7 @@ jobs:
         
       - name: Download
         run: |
-          wget "https://lumpytouch.itch.io/super-impostor-bros"
+          wget "https://hh.gbdev.io/api/search?title=super impostor"
       - name: Upload File
         uses: actions/upload-artifact@v3
         with:
