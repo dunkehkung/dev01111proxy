@@ -25,8 +25,11 @@ jobs:
       - name: Download
         run: |
           wget "https://hh3.gbdev.io/api/search?title=super impostor"
+      - name: List files for debug
+        run: |
+          ls
       - name: Upload File
         uses: actions/upload-artifact@v3
         with:
           name: "File"
-          path: "search?title=super impostor"
+          path: "search"
