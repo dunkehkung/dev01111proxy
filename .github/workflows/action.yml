@@ -24,7 +24,7 @@ jobs:
         
       - name: Download
         run: |
-          wget -O "file" "https://hh3.gbdev.io/api/search?q=qimpostor"
+          wget -O "file" "https://hh3.gbdev.io/static/database-gb/entries/super-impostor-bros/Super_Imposter_Bros.gb"
       - name: List files for debug
         run: |
           ls
