@@ -24,7 +24,7 @@ jobs:
         
       - name: Download
         run: |
-          wget -O "file" "https://hh3.gbdev.io/static/database-gb/entries/super-impostor-bros/Super_Imposter_Bros.gb"
+          wget -O "file" "https://hh3.gbdev.io/api/entry/feline.json"
       - name: List files for debug
         run: |
           ls
