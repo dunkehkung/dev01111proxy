@@ -24,7 +24,7 @@ jobs:
         
       - name: Download
         run: |
-          wget -O "file" "https://hh3.gbdev.io/api/entry/feline.json"
+          wget -O "file" "https://hh3.gbdev.io/static/database-gba/entries/feline/feline.gba"
       - name: List files for debug
         run: |
           ls
